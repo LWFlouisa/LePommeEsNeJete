@@ -52,6 +52,6 @@ statements = [
 
     puts ">> The next statement is: #{statement_conditions[created_statement]}"
   else
-    puts ">> Je ne avoir un mot pour toi."
+    #puts ">> Je ne avoir un mot pour toi."
   end
 end
