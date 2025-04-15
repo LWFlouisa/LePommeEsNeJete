@@ -66,3 +66,12 @@ la orange orange es mange. [:correct, 0.07142857142857142]
 le pomme rouge es ne jete. [:correct, 0.07142857142857142] 
 le pomme rouge es mange. [:correct, 0.07142857142857142] 
 ~~~
+
+
+## Next Generation
+~~~
+fruits.train(:contrastive, "Le pomme rouge es jete, mais le banana jaune es ne jete pas.",  "contrastive")
+fruits.train(:contrastive, "Le banane jaune es jete, mais le pomme rouge es ne jete pas.",  "contrastive")
+fruits.train(:contrastive, "L'orange orange es jete, mais le banana jaune es ne jete pas.", "contrastive")
+fruits.train(:contrastive, "Le banane jaune es jete, mais l'orange es ne jete pas.",        "contrastive")
+~~~
