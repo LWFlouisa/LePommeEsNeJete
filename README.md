@@ -1,5 +1,5 @@
 # LePommeEsNeJete
-A procedural dialogue generator for use outside of story specific events.
+A procedural dialogue generator for use outside of story specific events. The eventual direction I want to go is "Bamboo Francais", for my science fiction and fantasy setting.
 
 ## Generation of Francais
 ~~~
