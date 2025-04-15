@@ -50,5 +50,5 @@ la orange orange es mange. [:correct, 0.07142857142857142]
 les banane jaune es mange. [:correct, 0.07142857142857142] 
 la orange orange es ne jete. [:correct, 0.07142857142857142] 
 le pomme rouge es mange. [:correct, 0.07142857142857142]
-~~~
 le pomme rouge es mange. [:correct, 0.07142857142857142] 
+~~~
