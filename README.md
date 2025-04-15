@@ -1,5 +1,8 @@
-# LePommeEsNeJete
+# Le Pomme Es Ne Jete
 A procedural dialogue generator for use outside of story specific events. The eventual direction I want to go is "Bamboo Francais", for my science fiction and fantasy setting.
+
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D4z92kMQkAw?si=Oe6Y4kHHimyhoS6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Generation of Francais
 ~~~
