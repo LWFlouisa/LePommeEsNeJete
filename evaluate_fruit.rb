@@ -4,7 +4,7 @@ gets.chomp
 
 require "naive_bayes"
 
-fruits = NaiveBayes.new(:correct, :incorrect, :depends)
+fruits = NaiveBayes.new(:correct, :incorrect, :depends, :contrastive_correct, :contrastive_incorrect)
 
 ## Correct grammar
 fruits.train(:correct, "le pomme rouge es ne jete.",           "The apple red is tossed out.")
@@ -25,6 +25,12 @@ fruits.train(:incorrect, "les banane red es mange.",             "The banana yel
 ## Depends
 fruits.train(:depends,   "le pomme yellow es ne jete.",           "The apple red is tossed out.")
 fruits.train(:incorrect, "les bananes green es ne jete.",    "The bananas yellow is tossed out.")
+
+## Correct contrastive
+fruits.train(:contrastive_correct, "Le pomme rouge es jete, mais le banana jaune es ne jete pas.",  "contrastive")
+fruits.train(:contrastive_correct, "Le banane jaune es jete, mais le pomme rouge es ne jete pas.",  "contrastive")
+fruits.train(:contrastive_correct, "L'orange orange es jete, mais le banana jaune es ne jete pas.", "contrastive")
+fruits.train(:contrastive_correct, "Le banane jaune es jete, mais l'orange es ne jete pas.",        "contrastive")
 
 fruits_set = File.readlines("_input/dialogue.txt")
 
