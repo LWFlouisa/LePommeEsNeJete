@@ -1,7 +1,3 @@
-system("clear")
-
-gets.chomp
-
 require "naive_bayes"
 
 fruits = NaiveBayes.new(:correct, :incorrect, :depends, :contrastive_correct, :contrastive_incorrect)
